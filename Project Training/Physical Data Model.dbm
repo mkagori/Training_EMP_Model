@@ -21,7 +21,7 @@
   </SQLSchema:Schema>
   <OracleModel:OracleTable xmi:id="_UZK24HcuEeeTm-Rm6OrW-g" name="EMP" schema="_R5H8AHcuEeeTm-Rm6OrW-g">
     <columns xmi:id="_V5CHIHcuEeeTm-Rm6OrW-g" name="EMP_NO">
-      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_V5EjYHcuEeeTm-Rm6OrW-g" name="CHAR" length="5"/>
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_V5EjYHcuEeeTm-Rm6OrW-g" name="CHAR" length="10"/>
     </columns>
     <columns xmi:id="_WoIo0HcuEeeTm-Rm6OrW-g" name="EMP_NAME">
       <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_WoIo0XcuEeeTm-Rm6OrW-g" name="CHAR" length="5"/>
