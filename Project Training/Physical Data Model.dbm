@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--xtools2_universal_type_manager-->
-<xmi:XMI xmlns:datamodelversion="http://www.ibm.com/com.ibm.datatools.core/model/data/1.7.0.0" xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:OracleModel="http:///com/ibm/db/models/oracle/oracle.ecore" xmlns:SQLDataTypes="http:///org/eclipse/datatools/modelbase/sql/datatypes.ecore" xmlns:SQLSchema="http:///org/eclipse/datatools/modelbase/sql/schema.ecore" xmlns:datanotation="http:///datanotation.ecore" xmlns:ilvglnotation="http://www.ilog.com/views/8.5.0/LayoutNotationExtensionDefinition" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation">
+<xmi:XMI xmlns:datamodelversion="http://www.ibm.com/com.ibm.datatools.core/model/data/1.9.0.0" xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:OracleModel="http:///com/ibm/db/models/oracle/oracle.ecore" xmlns:SQLConstraints="http:///org/eclipse/datatools/modelbase/sql/constraints.ecore" xmlns:SQLDataTypes="http:///org/eclipse/datatools/modelbase/sql/datatypes.ecore" xmlns:SQLSchema="http:///org/eclipse/datatools/modelbase/sql/schema.ecore" xmlns:datanotation="http:///datanotation.ecore" xmlns:ilvglnotation="http://www.ilog.com/views/8.5.0/LayoutNotationExtensionDefinition" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation">
   <OracleModel:OracleDatabase xmi:id="_Rfi-YHcuEeeTm-Rm6OrW-g" name="Database" vendor="Oracle" version="11" schemas="_R5H8AHcuEeeTm-Rm6OrW-g"/>
-  <SQLSchema:Schema xmi:id="_R5H8AHcuEeeTm-Rm6OrW-g" name="Schema" tables="_UZK24HcuEeeTm-Rm6OrW-g" database="_Rfi-YHcuEeeTm-Rm6OrW-g">
+  <SQLSchema:Schema xmi:id="_R5H8AHcuEeeTm-Rm6OrW-g" name="Schema" tables="_UZK24HcuEeeTm-Rm6OrW-g _g5lSIHfsEeeNPYqhLgEcqw" database="_Rfi-YHcuEeeTm-Rm6OrW-g">
     <eAnnotations xmi:id="_SALmQHcuEeeTm-Rm6OrW-g" source="diagram">
       <contents xsi:type="datanotation:DataDiagram" xmi:id="_SAcE8HcuEeeTm-Rm6OrW-g" type="IE_CrowFoot" name="Diagram1" viewKind="ProjectExplorer" notation="IE_CrowFoot" kind="Physical">
         <styles xsi:type="datanotation:DataAttributeStyle" xmi:id="_SAcE8XcuEeeTm-Rm6OrW-g"/>
@@ -32,5 +32,14 @@
     <columns xmi:id="_fv90IHfrEeeTm-Rm6OrW-g" name="ADDRESS">
       <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_fv90IXfrEeeTm-Rm6OrW-g" name="CHAR" length="5"/>
     </columns>
+  </OracleModel:OracleTable>
+  <OracleModel:OracleTable xmi:id="_g5lSIHfsEeeNPYqhLgEcqw" name="DEPT" schema="_R5H8AHcuEeeTm-Rm6OrW-g" PCTFree="10" initTrans="1">
+    <columns xmi:id="_kXCQcHfsEeeNPYqhLgEcqw" name="DEPT_NUM" nullable="false">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_kXCQcXfsEeeNPYqhLgEcqw" name="CHAR" length="5"/>
+    </columns>
+    <columns xmi:id="_nAiCQHfsEeeNPYqhLgEcqw" name="DEPT_NAME">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_nAiCQXfsEeeNPYqhLgEcqw" name="CHAR" length="5"/>
+    </columns>
+    <constraints xsi:type="SQLConstraints:PrimaryKey" xmi:id="_mzN_AHfsEeeNPYqhLgEcqw" name="DEPT_PK" members="_kXCQcHfsEeeNPYqhLgEcqw"/>
   </OracleModel:OracleTable>
 </xmi:XMI>
