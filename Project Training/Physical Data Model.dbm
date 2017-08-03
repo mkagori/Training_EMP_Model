@@ -29,5 +29,8 @@
     <columns xmi:id="_LueswHcwEeeTm-Rm6OrW-g" name="EMP_DOB">
       <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_LueswXcwEeeTm-Rm6OrW-g" name="CHAR" length="5"/>
     </columns>
+    <columns xmi:id="_fv90IHfrEeeTm-Rm6OrW-g" name="ADDRESS">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_fv90IXfrEeeTm-Rm6OrW-g" name="CHAR" length="5"/>
+    </columns>
   </OracleModel:OracleTable>
 </xmi:XMI>
